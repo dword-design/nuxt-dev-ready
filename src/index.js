@@ -10,7 +10,9 @@ export default async () => {
   await pWaitFor(
     async () => {
       try {
-        const result = await axios.get(config.devServer.url)
+        const result = await axios.get(
+          `http://localhost:${config.devServer.port}`,
+        )
         if (
           !result.data.includes('__NUXT_LOADING__') &&
           !result.data.includes('id="nuxt_loading_screen"')
