@@ -20,10 +20,6 @@ export default async () => {
           return true
         }
       } catch (error) {
-        if (error.response === undefined) {
-          console.log(error)
-        }
-
         return error.response.status !== 503
       }
 
