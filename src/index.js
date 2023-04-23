@@ -16,6 +16,7 @@ export default async () => {
         !result.data.includes('__NUXT_LOADING__') &&
         !result.data.includes('id="nuxt_loading_screen"')
       ) {
+        await delay(1000)
         return
       }
     } catch {
