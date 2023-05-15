@@ -1,6 +1,6 @@
 {
   "name": "nuxt-dev-ready",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Waits until the Nuxt dev server is loaded. Mainly useful for testing.",
   "repository": "dword-design/nuxt-dev-ready",
   "funding": "https://github.com/sponsors/dword-design",
