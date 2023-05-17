@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/dword-design/nuxt-dev-ready/compare/v1.1.0...v1.1.1) (2023-05-17)
+
+
+### Bug Fixes
+
+* update config files ([be23003](https://github.com/dword-design/nuxt-dev-ready/commit/be230037805f1f6acea7b6a4c9f85789819136eb))
+* write GitHub metadata to package.json [keywords] ([#4](https://github.com/dword-design/nuxt-dev-ready/issues/4)) ([ee54b08](https://github.com/dword-design/nuxt-dev-ready/commit/ee54b0805fcf1373c98023f5d3fd8da599f7d265))
+
 # [1.1.0](https://github.com/dword-design/nuxt-dev-ready/compare/v1.0.0...v1.1.0) (2023-05-15)
 
 
