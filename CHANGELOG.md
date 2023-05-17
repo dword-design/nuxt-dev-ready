@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/dword-design/nuxt-dev-ready/compare/v1.1.1...v1.1.2) (2023-05-17)
+
+
+### Bug Fixes
+
+* trigger release ([0f669af](https://github.com/dword-design/nuxt-dev-ready/commit/0f669af1ad7dbb29d23ce4529d0685727eb3f94e))
+
 ## [1.1.1](https://github.com/dword-design/nuxt-dev-ready/compare/v1.1.0...v1.1.1) (2023-05-17)
 
 
