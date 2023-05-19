@@ -39,9 +39,6 @@
     "nuxt": "^3.4.2",
     "with-local-tmp-dir": "^5.0.1"
   },
-  "peerDependencies": {
-    "nuxt": "^3"
-  },
   "engines": {
     "node": ">=16"
   },
