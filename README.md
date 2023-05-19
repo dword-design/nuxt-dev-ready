@@ -53,8 +53,6 @@
 Waits until the Nuxt dev server is loaded. Mainly useful for testing.
 <!-- /DESCRIPTION -->
 
-The logic has been taken from [@nuxt/test-utils](https://www.npmjs.com/package/@nuxt/test-utils).
-
 <!-- INSTALL/ -->
 ## Install
 
@@ -71,7 +69,6 @@ $ yarn add nuxt-dev-ready
 
 ```js
 import { execaCommand } from 'execa'
-import kill from 'tree-kill-promise'
 import nuxtDevReady from 'nuxt-dev-ready'
 
 const nuxt = execaCommand('nuxt dev')
@@ -81,27 +78,24 @@ try {
 
   // Do some testing
 } finally {
-  await kill(nuxt.pid)
+  await nuxt.kill()
 } 
 ```
 
-Note that `nuxt-dev-ready` loads the Nuxt config if available.
+## Custom port
 
-## Options
-
-You can pass a custom port to `nuxtDevReady` in case it cannot be read from the config:
+You can pass a custom port to `nuxtDevReady` like so:
 
 ```js
 import { execaCommand } from 'execa'
-import kill from 'tree-kill-promise'
 import nuxtDevReady from 'nuxt-dev-ready'
 
 const nuxt = execaCommand('nuxt dev', { env: { PORT: 4000 } })
 
 try {
-  await nuxtDevReady({ port: 4000 })
+  await nuxtDevReady(4000)
 } finally {
-  await kill(nuxt.pid)
+  await nuxt.kill()
 } 
 ```
 
