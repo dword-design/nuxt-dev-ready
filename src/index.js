@@ -7,12 +7,12 @@ export default async (port = 3000) => {
   await pWaitFor(
     async () => {
       try {
-        await axios.get(`http://localhost:${port}`)
+        return !(await axios.get(`http://localhost:${port}`)).data.includes(
+          'id="nuxt_loading_screen"',
+        )
       } catch (error) {
-        return error.code !== 'ECONNREFUSED' && error.response.status !== 503
+        return error.response !== undefined && error.response.status !== 503
       }
-
-      return true
     },
     { interval: 100 },
   )
