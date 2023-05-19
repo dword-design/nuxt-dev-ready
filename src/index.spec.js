@@ -10,7 +10,7 @@ import withLocalTmpDir from 'with-local-tmp-dir'
 import self from './index.js'
 
 export default {
-  async after() {
+  async afterEach() {
     await this.resetWithLocalTmpDir()
   },
   async beforeEach() {
