@@ -11,7 +11,7 @@ export default async (port = 3000) => {
           'id="nuxt_loading_screen"',
         )
       } catch (error) {
-        return error.response === undefined || error.response.status !== 503
+        return error.response !== undefined && error.response.status !== 503
       }
     },
     { interval: 100 },
