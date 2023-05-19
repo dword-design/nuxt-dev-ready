@@ -1,0 +1,5 @@
+{
+  "name": "@dword-design/node",
+  "supportedNodeVersions": [16, 18],
+  "nodeVersion": 18
+}
