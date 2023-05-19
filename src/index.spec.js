@@ -4,8 +4,8 @@ import { execaCommand } from 'execa'
 import fs from 'fs-extra'
 import { JSDOM } from 'jsdom'
 import P from 'path'
-import withLocalTmpDir from 'with-local-tmp-dir'
 import kill from 'tree-kill-promise'
+import withLocalTmpDir from 'with-local-tmp-dir'
 
 import self from './index.js'
 
