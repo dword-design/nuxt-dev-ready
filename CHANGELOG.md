@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/dword-design/nuxt-dev-ready/compare/v2.0.0...v2.0.1) (2023-05-19)
+
+
+### Bug Fixes
+
+* nuxt2 ([#11](https://github.com/dword-design/nuxt-dev-ready/issues/11)) ([4190807](https://github.com/dword-design/nuxt-dev-ready/commit/41908075cfb1b441fe81c07a46635405ceda580e))
+
 # [2.0.0](https://github.com/dword-design/nuxt-dev-ready/compare/v1.1.2...v2.0.0) (2023-05-19)
 
 
