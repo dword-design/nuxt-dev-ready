@@ -13369,6 +13369,18 @@ traverse@~0.6.6:
   resolved "https://registry.yarnpkg.com/traverse/-/traverse-0.6.7.tgz#46961cd2d57dd8706c36664acde06a248f1173fe"
   integrity sha512-/y956gpUo9ZNCb99YjxG7OaslxZWHfCHAUUfshwqOXmxUIvqLjVO581BT+gM59+QV9tFe6/CGG53tsA1Y7RSdg==
 
+tree-kill-promise@^3.0.14:
+  version "3.0.14"
+  resolved "https://registry.yarnpkg.com/tree-kill-promise/-/tree-kill-promise-3.0.14.tgz#10ed29534b75e26f16258cd46dd65bc1c05c2844"
+  integrity sha512-HMWDVJq3oby7uxA2AKVThX5fKkF7GPT3FhjNb75tG/6P4tQBtIhElaSucFHFMlBV5f3e+KPqIlHsJVZjueKX/A==
+  dependencies:
+    tree-kill "^1.2.2"
+
+tree-kill@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/tree-kill/-/tree-kill-1.2.2.tgz#4ca09a9092c88b73a7cdc5e8a01b507b0790a0cc"
+  integrity sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==
+
 treeverse@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/treeverse/-/treeverse-1.0.4.tgz#a6b0ebf98a1bca6846ddc7ecbc900df08cb9cd5f"

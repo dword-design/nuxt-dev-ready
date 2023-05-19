@@ -4,6 +4,7 @@ import { execaCommand } from 'execa'
 import fs from 'fs-extra'
 import { JSDOM } from 'jsdom'
 import P from 'path'
+import kill from 'tree-kill-promise'
 import withLocalTmpDir from 'with-local-tmp-dir'
 
 import self from './index.js'
@@ -44,7 +45,7 @@ export default {
       )
       expect(dom.window.document.querySelectorAll('.foo').length).toEqual(1)
     } finally {
-      nuxt.kill()
+      await kill(nuxt.pid)
     }
   },
   default: async () => {
@@ -66,7 +67,7 @@ export default {
       )
       expect(dom.window.document.querySelectorAll('.foo').length).toEqual(1)
     } finally {
-      nuxt.kill()
+      await kill(nuxt.pid)
     }
   },
   'port option': async () => {
@@ -88,7 +89,7 @@ export default {
       )
       expect(dom.window.document.querySelectorAll('.foo').length).toEqual(1)
     } finally {
-      nuxt.kill()
+      await kill(nuxt.pid)
     }
   },
 }
