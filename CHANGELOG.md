@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/dword-design/nuxt-dev-ready/compare/v1.1.2...v2.0.0) (2023-05-19)
+
+
+### Bug Fixes
+
+* simplify ([#8](https://github.com/dword-design/nuxt-dev-ready/issues/8)) ([9f9ef38](https://github.com/dword-design/nuxt-dev-ready/commit/9f9ef38edd71d201b07778e182dda91af3840b69))
+
+
+### BREAKING CHANGES
+
+* drop node 14 support, simplify api
+
 ## [1.1.2](https://github.com/dword-design/nuxt-dev-ready/compare/v1.1.1...v1.1.2) (2023-05-17)
 
 
