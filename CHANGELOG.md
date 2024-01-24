@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/dword-design/nuxt-dev-ready/compare/v2.0.1...v3.0.0) (2024-01-24)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#16](https://github.com/dword-design/nuxt-dev-ready/issues/16)) ([13f17b8](https://github.com/dword-design/nuxt-dev-ready/commit/13f17b82f72bc80d36a71c6425c5906e5fd6e169))
+
+
+### BREAKING CHANGES
+
+* node.js >= 18
+
 ## [2.0.1](https://github.com/dword-design/nuxt-dev-ready/compare/v2.0.0...v2.0.1) (2023-05-19)
 
 
