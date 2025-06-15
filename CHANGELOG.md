@@ -1,3 +1,10 @@
+## [4.0.1](https://github.com/dword-design/nuxt-dev-ready/compare/v4.0.0...v4.0.1) (2025-06-15)
+
+
+### Bug Fixes
+
+* update dependency jsdom to v26 ([#30](https://github.com/dword-design/nuxt-dev-ready/issues/30)) ([adcc325](https://github.com/dword-design/nuxt-dev-ready/commit/adcc32592290531192744e7424a9e4fdc575670a))
+
 # [4.0.0](https://github.com/dword-design/nuxt-dev-ready/compare/v3.0.0...v4.0.0) (2025-06-15)
 
 

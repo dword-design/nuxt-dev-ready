@@ -1,6 +1,6 @@
 {
   "name": "nuxt-dev-ready",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Waits until the Nuxt dev server is loaded. Mainly useful for testing.",
   "keywords": [
     "wait"
