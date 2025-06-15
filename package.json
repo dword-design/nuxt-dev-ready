@@ -10,8 +10,6 @@
   "license": "MIT",
   "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
   "type": "module",
-  "exports": "./dist/index.js",
-  "main": "dist/index.js",
   "files": [
     "dist"
   ],
@@ -31,16 +29,17 @@
     "port-ready": "^0.1.0"
   },
   "devDependencies": {
-    "@dword-design/base": "^11.0.2",
-    "@dword-design/functions": "^5.0.14",
-    "execa": "^8.0.1",
+    "@dword-design/base": "^13.0.7",
+    "@playwright/test": "^1.53.0",
+    "endent": "npm:@dword-design/endent@^1.4.1",
+    "execa": "^9.6.0",
     "fs-extra": "^11.1.1",
+    "get-port": "^7.1.0",
     "jsdom": "^24.0.0",
     "nuxt": "^3.4.2",
-    "ora": "^8.0.1",
-    "tree-kill-promise": "^3.0.14",
-    "with-local-tmp-dir": "^5.0.1"
+    "tree-kill-promise": "^3.0.14"
   },
+  "packageManager": "pnpm@10.12.1+sha512.f0dda8580f0ee9481c5c79a1d927b9164f2c478e90992ad268bbb2465a736984391d6333d2c327913578b2804af33474ca554ba29c04a8b13060a717675ae3ac",
   "engines": {
     "node": ">=18"
   },
