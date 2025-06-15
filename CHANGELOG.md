@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/dword-design/nuxt-dev-ready/compare/v3.0.0...v4.0.0) (2025-06-15)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#25](https://github.com/dword-design/nuxt-dev-ready/issues/25)) ([24925f8](https://github.com/dword-design/nuxt-dev-ready/commit/24925f8f4fdc9dfc2534657de466859147314d65))
+
+
+### BREAKING CHANGES
+
+* drop nuxt 2 support
+
 # [3.0.0](https://github.com/dword-design/nuxt-dev-ready/compare/v2.0.1...v3.0.0) (2024-01-24)
 
 
