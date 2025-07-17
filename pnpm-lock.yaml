@@ -43,8 +43,8 @@ importers:
         specifier: ^3.4.2
         version: 3.17.5(@parcel/watcher@2.5.1)(@types/node@24.0.1)(db0@0.3.2)(eslint@9.29.0(jiti@2.4.2))(ioredis@5.6.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.43.0)(terser@5.42.0)(tsx@4.20.3)(typescript@5.8.3)(vite@6.3.5(@types/node@24.0.1)(jiti@2.4.2)(terser@5.42.0)(tsx@4.20.3)(yaml@2.8.0))(vue-tsc@2.2.10(typescript@5.8.3))(yaml@2.8.0)
       tree-kill-promise:
-        specifier: ^3.0.14
-        version: 3.0.14
+        specifier: ^4.0.0
+        version: 4.0.0
 
 packages:
 
@@ -5752,9 +5752,9 @@ packages:
     resolution: {integrity: sha512-aXJDbk6SnumuaZSANd21XAo15ucCDE38H4fkqiGsc3MhCK+wOlZvLP9cB/TvpHT0mOyWgC4Z8EwRlzqYSUzdsA==}
     engines: {node: '>= 0.4'}
 
-  tree-kill-promise@3.0.14:
-    resolution: {integrity: sha512-HMWDVJq3oby7uxA2AKVThX5fKkF7GPT3FhjNb75tG/6P4tQBtIhElaSucFHFMlBV5f3e+KPqIlHsJVZjueKX/A==}
-    engines: {node: '>=14'}
+  tree-kill-promise@4.0.0:
+    resolution: {integrity: sha512-k6PxcH/5e+dJiTyw3KUO0Pfxav4H10M+JMFgssaWqnTweAP5oVRNuWbWoYJgowbRdi46yXV9YvyVnDwGGvSCvw==}
+    engines: {node: '>=20'}
 
   tree-kill@1.2.2:
     resolution: {integrity: sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==}
@@ -12673,7 +12673,7 @@ snapshots:
 
   traverse@0.6.8: {}
 
-  tree-kill-promise@3.0.14:
+  tree-kill-promise@4.0.0:
     dependencies:
       tree-kill: 1.2.2
 
