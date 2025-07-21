@@ -1,3 +1,11 @@
+## [5.0.1](https://github.com/dword-design/nuxt-dev-ready/compare/v5.0.0...v5.0.1) (2025-07-21)
+
+
+### Bug Fixes
+
+* update dependency nuxt to v4 ([#37](https://github.com/dword-design/nuxt-dev-ready/issues/37)) ([03b5a0a](https://github.com/dword-design/nuxt-dev-ready/commit/03b5a0a2297995cb93d0c30ec607335febbe1042))
+* update pnpm to v10.13.1 ([#34](https://github.com/dword-design/nuxt-dev-ready/issues/34)) ([07e9035](https://github.com/dword-design/nuxt-dev-ready/commit/07e90351b87ee110c34616d3bcc78c7e4dc1813f))
+
 # [5.0.0](https://github.com/dword-design/nuxt-dev-ready/compare/v4.0.1...v5.0.0) (2025-07-21)
 
 
