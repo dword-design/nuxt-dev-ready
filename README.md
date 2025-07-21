@@ -68,18 +68,18 @@ $ yarn add nuxt-dev-ready
 ## Usage
 
 ```js
-import { execaCommand } from 'execa'
-import kill from 'tree-kill-promise'
-import nuxtDevReady from 'nuxt-dev-ready'
+import { execaCommand } from 'execa';
+import kill from 'tree-kill-promise';
+import nuxtDevReady from 'nuxt-dev-ready';
 
-const nuxt = execaCommand('nuxt dev')
+const nuxt = execaCommand('nuxt dev');
 
 try {
-  await nuxtDevReady()
+  await nuxtDevReady();
 
   // Do some testing
 } finally {
-  await kill(nuxt.pid)
+  await kill(nuxt.pid);
 } 
 ```
 
@@ -88,16 +88,16 @@ try {
 You can pass a custom port to `nuxtDevReady` like so:
 
 ```js
-import { execaCommand } from 'execa'
-import kill from 'tree-kill-promise'
-import nuxtDevReady from 'nuxt-dev-ready'
+import { execaCommand } from 'execa';
+import kill from 'tree-kill-promise';
+import nuxtDevReady from 'nuxt-dev-ready';
 
-const nuxt = execaCommand('nuxt dev', { env: { PORT: 4000 } })
+const nuxt = execaCommand('nuxt dev', { env: { PORT: 4000 } });
 
 try {
-  await nuxtDevReady(4000)
+  await nuxtDevReady(4000);
 } finally {
-  await kill(nuxt.pid)
+  await kill(nuxt.pid);
 } 
 ```
 
