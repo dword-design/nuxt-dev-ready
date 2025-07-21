@@ -1,3 +1,18 @@
+# [5.0.0](https://github.com/dword-design/nuxt-dev-ready/compare/v4.0.1...v5.0.0) (2025-07-21)
+
+
+### Bug Fixes
+
+* foo ([2486a18](https://github.com/dword-design/nuxt-dev-ready/commit/2486a18460b4957cc0385de8ab1dfef716895790))
+* lint ([bc1d1f5](https://github.com/dword-design/nuxt-dev-ready/commit/bc1d1f5cbbc7da948014522633260d6ec9becf5b))
+* lock file maintenance ([#35](https://github.com/dword-design/nuxt-dev-ready/issues/35)) ([9cad4f6](https://github.com/dword-design/nuxt-dev-ready/commit/9cad4f683a29ffd5f012e74761ca0aa7f706b198))
+* semicolons ([574c1dc](https://github.com/dword-design/nuxt-dev-ready/commit/574c1dc6d1ce26adb894a08992dcc5a474233e1b))
+
+
+### BREAKING CHANGES
+
+* node.js >= 20
+
 ## [4.0.1](https://github.com/dword-design/nuxt-dev-ready/compare/v4.0.0...v4.0.1) (2025-06-15)
 
 
