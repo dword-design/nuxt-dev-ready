@@ -27,7 +27,7 @@ test('works', async ({}, testInfo) => {
 
   const nuxt = execaCommand('nuxt dev', {
     cwd,
-    env: { PORT: port },
+    env: { PORT: String(port) },
     reject: false,
     stderr: 'inherit',
   });
