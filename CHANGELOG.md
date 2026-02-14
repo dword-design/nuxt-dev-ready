@@ -1,3 +1,15 @@
+# [6.0.0](https://github.com/dword-design/nuxt-dev-ready/compare/v5.0.1...v6.0.0) (2026-02-14)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v16 ([#44](https://github.com/dword-design/nuxt-dev-ready/issues/44)) ([d1a055a](https://github.com/dword-design/nuxt-dev-ready/commit/d1a055ac4bf58e7e5e4f4a392b5453ff0dd2d351))
+
+
+### BREAKING CHANGES
+
+* node.js >= 22
+
 ## [5.0.1](https://github.com/dword-design/nuxt-dev-ready/compare/v5.0.0...v5.0.1) (2025-07-21)
 
 
