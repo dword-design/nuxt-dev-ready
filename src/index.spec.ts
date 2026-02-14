@@ -1,4 +1,4 @@
-import P from 'node:path';
+import pathLib from 'node:path';
 
 import { expect, test } from '@playwright/test';
 import axios from 'axios';
@@ -15,7 +15,7 @@ test('works', async ({}, testInfo) => {
   const cwd = testInfo.outputPath();
 
   await fs.outputFile(
-    P.join(cwd, 'pages', 'index.vue'),
+    pathLib.join(cwd, 'pages', 'index.vue'),
     endent`
       <template>
         <div class="foo" />
@@ -38,6 +38,6 @@ test('works', async ({}, testInfo) => {
     const dom = new JSDOM(data);
     expect(dom.window.document.querySelectorAll('.foo').length).toEqual(1);
   } finally {
-    await kill(nuxt.pid);
+    await kill(nuxt.pid!);
   }
 });
