@@ -15,9 +15,10 @@ export default async (port = 3000, { interval = 500 } = {}) => {
         return !data.includes('id="nuxt_loading_screen"');
       } catch (error) {
         return (
-          error.code !== 'ECONNABORTED' &&
-          error.response !== undefined &&
-          error.response.status !== 503
+          !(error instanceof axios.AxiosError) ||
+          (error.code !== 'ECONNABORTED' &&
+            error.response !== undefined &&
+            error.response.status !== 503)
         );
       }
     },
