@@ -36,7 +36,7 @@ test('works', async ({}, testInfo) => {
     await self(port);
     const { data } = await axios.get(`http://localhost:${port}`);
     const dom = new JSDOM(data);
-    expect(dom.window.document.querySelectorAll('.foo').length).toEqual(1);
+    expect(dom.window.document.querySelectorAll('.foo')).toHaveLength(1);
   } finally {
     await kill(nuxt.pid!);
   }
