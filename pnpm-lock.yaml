@@ -12,8 +12,8 @@ importers:
         specifier: ^1.13.5
         version: 1.14.0
       p-wait-for:
-        specifier: ^6.0.0
-        version: 6.0.0
+        specifier: ^7.0.0
+        version: 7.0.0
       port-ready:
         specifier: npm:@dword-design/port-ready-fork@^0.0.3
         version: '@dword-design/port-ready-fork@0.0.3'
@@ -4985,9 +4985,9 @@ packages:
     resolution: {integrity: sha512-raZs7eMN7mRqP2UEaXMSxDAkSqwN41J0yXCV1AVU9PbB4t7aBAj/6nDPgFcUikX+4GeBgXWLxITAn9hr+bdhrg==}
     engines: {node: '>=4'}
 
-  p-wait-for@6.0.0:
-    resolution: {integrity: sha512-2kKzMtjS8TVcpCOU/gr3vZ4K/WIyS1AsEFXFWapM/0lERCdyTbB6ZeuCIp+cL1aeLZfQoMdZFCBTHiK4I9UtOw==}
-    engines: {node: '>=20'}
+  p-wait-for@7.0.0:
+    resolution: {integrity: sha512-zDQ/3GyUFSwklDAT7jeBu4FQgxw0o0yayyP4qizTl5yDYlAWbk71npDC1zhOqD4iqnEN2/4Ssr8Xc2aUQtvdAg==}
+    engines: {node: '>=22'}
 
   package-json-from-dist@1.0.1:
     resolution: {integrity: sha512-UEZIS3/by4OC8vL3P2dTXRETpebLI2NiI5vIrjaD/5UtrkFX/tNbwjTSRAGC/+7CAo2pIcBaRgWmcBBHcsaCIw==}
@@ -12058,7 +12058,7 @@ snapshots:
 
   p-wait-for@1.0.0: {}
 
-  p-wait-for@6.0.0: {}
+  p-wait-for@7.0.0: {}
 
   package-json-from-dist@1.0.1: {}
 
